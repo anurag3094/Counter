@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,span,p{
+    font-family: 'Roboto', sans-serif !important;
+}
+.left-bg{
+    background: linear-gradient(to top left, #DFA41C,#E17D0B);
+    min-height: 720px;
+}
+.right-bg{
+    position: relative;
+    background-image: url('../img/complete-project-bg.jpg');
+    height: 100%;
+    background-size: cover;
+    min-height: 720px;
+}
+/* text colors */
+.c-e7{
+    color: #E7DC43;
+}
+.c-a5{
+    color: #A5CA97;
+}
+.c-ffe{
+    color: #FFE9AB
+}
+.c-fc{
+    color: #FCD46E
+}
+.c-f6{
+    color: #F6FBF3
+}
+.h-10{
+    height: 10px;
+}
+/* font size */
+.f-14{
+    font-size: 14px;
+}
+.f-w-bold{
+    font-weight: bold;
+}
+.rotated-text{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #A5CA97;
+    opacity: 0.5;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -150px;
+    top: 330px;
+}
+.rotated-text:before{
+    content: '------------------------------';
+    padding-right: 20px;
+    letter-spacing: -1px;
+}
+.rotated-text:after{    
+    content: '------------------------------';
+    padding-left: 20px;
+    letter-spacing: -1px;
+}
+.rotated-text ion-icon{
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+/* Counter */
+.counter {
+    position: relative;
+    padding: 40px 0 35px 0px;
+    color: #F6FBF3;
+}
+.counter .num{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.counter ion-icon{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.counter .content{
+    font-size: 16px;
+    font-weight: bold;
+}
+.d-flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width:680px){
+    .rotated-text{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: #A5CA97;
+        opacity: 0.5;
+        position: absolute;
+        transform: rotate(90deg);
+        left: -150px;
+        top: 400px;
+    }
+}
